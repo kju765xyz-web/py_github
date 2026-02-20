@@ -5,6 +5,9 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
+
+
+# second branching
 plt.plot(x, y, label='sin(x)', color='red')
 plt.title('Sine Wave')
 plt.xlabel('x')
